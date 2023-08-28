@@ -26,7 +26,9 @@ Route::get('/dashboard', function () {
 Route::get('/contactus', function () {
     return view('contactus');
 });
-
+Route::get('/services', function () {
+    return view('services');
+});
 
 
 

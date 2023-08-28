@@ -19,6 +19,7 @@ body {
 
        .container {
             padding: 0;
+            
        }
        .navbar-nav {
                text-align: center;
@@ -173,7 +174,7 @@ body {
                                 @endif
                             <div class="row register-form">
                                 
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="username" class="form-label">Username</label>
                                         <input type="text" class="form-control"  name="username" value="{{old('username')}}" onkeydown="return alphaOnly(event);" required/>
@@ -202,7 +203,7 @@ body {
                                     </div>
                                 </div>
                             
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="age" class="form-label">Age</label>
                                         <input type="number" class="form-control"  name="age" onkeydown="return alphaOnly(event);" required/>
