@@ -65,7 +65,7 @@
                 <div class="sidebar">
                     <nav>
                         <ul>
-                            <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+                            <li><a href="">Dashboard</a></li>
                             <li><a href="">Doctor List</a></li>
                             <li><a href="">Patient List</a></li>
                             <li><a href="">Appointment Details</a></li>

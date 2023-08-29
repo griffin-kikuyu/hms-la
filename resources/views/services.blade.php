@@ -1,6 +1,12 @@
 @extends('layouts.vue')
 @section('anne')
     <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            @include('nav')
+        </div>
+    </div>
+
             <!-- ======= Services Section ======= -->
     <section id="services" class="services">
         <div class="container">

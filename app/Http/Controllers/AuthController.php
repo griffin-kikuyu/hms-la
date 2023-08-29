@@ -36,17 +36,17 @@ class AuthController extends Controller
             'gender' => $request->gender,
         ]);
 
-        return redirect()->route('dashboard')->with('success', 'Registration successful. Please log in.');
+        return redirect()->route('login')->with('success', 'Registration successful. Please log in.');
     }
 
     public function login(Request $request)
     {
         $credentials = $request->only('username', 'password');
-
+    
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('/'); // Redirect to the desired page after successful login
+            return redirect()->route('dashboard'); // Redirect to the dashboard page after successful login
         }
-
+    
         return redirect()->back()->withErrors(['login' => 'Invalid credentials']);
     }
 }

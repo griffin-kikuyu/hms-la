@@ -7,6 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Hello, world!</title>
     <style>
+     body {
+            background: -webkit-linear-gradient(left, #4941b6, #00c6ff);
+            background-size: cover;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+       }
         .services .icon-box {
   text-align: center;
   border: 1px solid #d5e1ed;
